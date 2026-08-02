@@ -1,0 +1,21 @@
+acquirer,target,announced_date,announced_ev,target_ltm_revenue,target_ltm_ebitda,sector
+IBM,Red Hat,2018-10-28,34000,3400,600,enterprise_software
+Broadcom,VMware,2022-05-26,61000,13000,4500,enterprise_software
+Broadcom,CA Technologies,2018-07-11,18900,4200,1700,enterprise_software
+Salesforce,Slack,2020-12-01,27700,900,-100,enterprise_software
+Salesforce,Tableau,2019-06-10,15700,1160,-50,enterprise_software
+Salesforce,MuleSoft,2018-03-20,6500,300,-40,enterprise_software
+SAP,Qualtrics,2018-11-11,8000,400,20,enterprise_software
+Microsoft,LinkedIn,2016-06-13,26200,3000,150,enterprise_software
+Microsoft,Nuance,2021-04-12,19700,1400,300,enterprise_software
+Oracle,NetSuite,2016-07-28,9300,740,20,enterprise_software
+Oracle,Cerner,2021-12-20,28300,5500,1600,enterprise_software
+Cisco,Splunk,2023-09-21,28000,3900,50,enterprise_software
+Thoma Bravo,Anaplan,2022-03-20,10700,600,-120,enterprise_software
+Thoma Bravo,Coupa,2022-12-12,8000,800,-60,enterprise_software
+Thoma Bravo,SailPoint,2022-04-11,6900,440,40,enterprise_software
+Vista Equity,Citrix,2022-01-31,16500,3300,1200,enterprise_software
+Vista Equity,Avalara,2022-08-08,8400,700,-30,enterprise_software
+Google,Mandiant,2022-03-08,5400,480,-20,enterprise_software
+Adobe,Figma,2022-09-15,20000,400,60,enterprise_software
+SAP,Concur,2014-09-18,8300,700,90,enterprise_software
