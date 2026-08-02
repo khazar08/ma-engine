@@ -48,8 +48,8 @@ class BacktestResult:
 
 
 def load_holdout(cfg: Config = DEFAULT_CONFIG) -> pd.DataFrame:
-    path = os.path.join(cfg.data_dir, "holdout_deals.csv")
-    return pd.read_csv(path)
+    from .paths import resolve_data_file
+    return pd.read_csv(resolve_data_file(cfg.data_dir, "holdout_deals.csv"))
 
 
 def backtest_screener(universe: list[Company], holdout: Optional[pd.DataFrame] = None,
