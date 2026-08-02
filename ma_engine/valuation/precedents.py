@@ -31,8 +31,8 @@ class PrecedentResult:
 
 
 def load_precedents(cfg: Config = DEFAULT_CONFIG, sector: str = "enterprise_software") -> pd.DataFrame:
-    path = os.path.join(cfg.data_dir, "precedents.csv")
-    df = pd.read_csv(path)
+    from ..paths import resolve_data_file
+    df = pd.read_csv(resolve_data_file(cfg.data_dir, "precedents.csv"))
     return df[df["sector"] == sector].copy()
 
 
