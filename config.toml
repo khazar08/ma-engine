@@ -1,0 +1,11 @@
+# Repo-local Streamlit config used by Streamlit Community Cloud and local runs.
+[theme]
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f6f8"
+textColor = "#0b0b0b"
+font = "sans serif"
+
+[server]
+headless = true

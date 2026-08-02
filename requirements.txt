@@ -1,0 +1,17 @@
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+pydantic>=2.5
+matplotlib>=3.8
+scikit-learn>=1.3
+scipy>=1.11
+Jinja2>=3.1
+requests>=2.31
+pyarrow>=14
+pytest>=7.4
+
+# Optional (live data / richer embeddings) — NOT needed for the deployed demo,
+# which uses the offline seed universe + TF-IDF embeddings:
+# yfinance>=0.2
+# sentence-transformers>=2.2
+# sec-edgar-downloader>=5
